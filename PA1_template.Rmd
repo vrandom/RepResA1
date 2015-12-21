@@ -177,3 +177,5 @@ with(averaged_over_days, xyplot(mean_steps ~ interval | day,
                                 ylab = "Number of Steps",
                                 layout = c(1, 2)))
 ```
+
+Thank you for reading!
