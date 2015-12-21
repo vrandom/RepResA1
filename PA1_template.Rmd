@@ -147,6 +147,8 @@ And their values are:
 * Mean: `r mean_filled_daily_steps`
 * Median: `r median_filled_daily_steps`
 
+We can observe that the missing data is not affecting our results as only a very small amount of data is absent.
+
 ## Are there differences in activity patterns between weekdays and weekends?
 
 To aid us in this one, we'll use **lubridate** to make life easier. We'll start by tagging days as either "weekday" or "weekend":
